@@ -7,9 +7,10 @@ function allCaps() {
     x.value = x.value.toUpperCase();
 }
 
-function changeText() {
-    document.getElementById("textChange").innerHTML = "Don't  like my  page";
+function selectText() {
+    document.getElementById("selectText").innerHTML = "You selected some text";
 }
+/*scroll*/
 var space = " ";
 var pos = 0;
 var msg = "Subject 13666";
